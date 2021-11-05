@@ -1,7 +1,7 @@
 import twitter
 import matplotlib.pyplot as plt
 import numpy as np
-from textblob import textblob
+from textblob import TextBlob
 
 api = twitter.Api(consumer_key='D8KM23T3iFpwLO8OgQihpSMAX',
     consumer_secret='HEkmbBUDVtZLTuWq2guji0IRnwQmjHLCI2IJtgH7ZSdT3ju6LW',
@@ -16,6 +16,12 @@ def process_twitter_info(search_term):
     api_pull += api.GetSearch(term=hash_string)
 
     # Print tweets and sentiments
+    api_pull_set = set(api_pull)
+    for tweet in api_pull_set:
+        print(tweet.text)
+        analysis = TextBlob(tweet.text)
+        print(analysis.sentiment)
+        print()
 
     dict_to_parse = {'main_key': api_pull}
     # Loop through all elements and convert them to dictionary objects
@@ -74,9 +80,9 @@ if __name__ == '__main__':
     
     bellevue_list = process_twitter_info('Bellevue University')
     tag_list = get_hashtag_list(bellevue_list)
-    make_bar_chart(tag_list)
+    '''make_bar_chart(tag_list)
 
     x, y = scatter_plot_lists('Data Science')
     make_scatter_plot(x, y)
 
-    make_pie_chart(tag_list)
+    make_pie_chart(tag_list)'''
