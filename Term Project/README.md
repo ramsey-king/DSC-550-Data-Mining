@@ -11,4 +11,4 @@ _sportsipy, pandas, matplotlib, sklearn_
 
 ## Project file
 
-[Final Project File] (https://github.com/ramsey-king/DSC-630-Predictive-Analytics/blob/master/Final%20Project/King_Ramsey_Term_Project_DSC_630_from_csv_files.ipynb)
+[Final Project File](https://github.com/ramsey-king/DSC-630-Predictive-Analytics/blob/master/Final%20Project/King_Ramsey_Term_Project_DSC_630_from_csv_files.ipynb)
