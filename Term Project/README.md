@@ -8,4 +8,4 @@ _pandas, matplotlib, sklearn_
 
 ## Project file
 
-[Project File](https://github.com/ramsey-king/DSC-630-Predictive-Analytics/blob/master/Final%20Project/King_Ramsey_Term_Project_DSC_630_from_csv_files.ipynb)
+[Project File](https://github.com/ramsey-king/DSC-550-Data-Mining/blob/master/Term%20Project/King_Ramsey_Milestone5.ipynb)
