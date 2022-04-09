@@ -1,13 +1,10 @@
 # Summary
 
-Is there a way to predict if a college quarterback will have a successful career in the NFL (National Football League) using their college stats?
-This project will help determine the NFL success of a college football quarterback based on their career college football statistics.  A few definitions are necessary at this point. Let us define a successful NFL career as being in the league for at least 5 years, starting at least half of their games at quarterback, and being selected to at least 1 Pro-Bowl.  From this success definition, the most important statistics a college football quarterback can have is 8,100 passing yards or more, and an average Quarterback Rating (QBR) of 135.5 or higher in his career.  The Quarterback Rating (or Passer Rating) helps to determine the passing performance of a quarterback, and is defined by the following formula:  
-  
-If a college quarterback meets these metrics, then they will have a higher likelihood of success in the NFL.  Being a successful NFL quarterback has multiple monetary benefits for the player (Quarterback) and for the NFL franchise that employs him.  
+This project consisted of a text classification project of sermons given by members of The Church of Jesus Christ of Latter-Day Saints.  The corpora of sermons can be found at speeches.byu.edu.  The ability to search for sermons by topic is of importance for multiple reasons.  One reason is we have seen the explosion of demand for being able to search for items that we are interested in through the advances of the Internet and search engines such as Google.com.  More specific to an audience of those looking for sermons by topic, on occasion, members of The Church of Jesus Christ of Latter-Day Saints are asked to give speeches of their own.  Having the ability to search for other texts based on the topic that we will be speaking on is beneficial for our preparation.
 
 ## Packages Used
 
-_sportsipy, pandas, matplotlib, sklearn_
+_pandas, matplotlib, sklearn_
 
 ## Project file
 
